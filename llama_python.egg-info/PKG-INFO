@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: llama-python
+Version: 0.1.0
+Summary: A CLI chatbot using Llama LLM
+Author-email: Your Name <your@email.com>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ollama==0.4.4
+Requires-Dist: python-dotenv==1.0.0
+
+# github-repo-recommender
+Repository for the 2024-2025 Github Repository Recommender project at Open Source for Illinois
