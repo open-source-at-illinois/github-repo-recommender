@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
 </head>
 <body>
+    <!-- Query portion  -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -20,10 +22,13 @@
                 <li><a href="#">IDK 1</a></li>
                 <li><a href="#">IDK 2</a></li>
                 <li><a href="#">IDK 3</a></li>
-              </ul>
+            </ul>
         </div>
     </nav>
+
+    <!-- Query portion  -->
     <div class="container">
+        <h1>Enter your query:</h1>
         <form>
             <div class="input-group">
                 <span class="input-group-addon">Enter keywords</span>
@@ -35,6 +40,22 @@
                 </div>
             </div>
         </form>
+    </div>
+
+    <!-- Top current recommendations -->
+    <div class="container" id="rec-container">
+        <!-- First row -->
+        <div class="container rec-container-row">
+            <button class="rec-button">Python</button>
+            <button class="rec-button">Java</button>
+            <button class="rec-button">C++</button>
+        </div>
+        <!-- Second row -->
+        <div class="container rec-container-row">
+            <button class="rec-button">SigRobotics</button>
+            <button class="rec-button">ICPC</button>
+            <button class="rec-button">OpenSource UIUC</button>
+        </div>
     </div>
 
 </body>
