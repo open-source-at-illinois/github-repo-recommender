@@ -52,3 +52,4 @@ if len(repos_data) != repo_num:
     print(f'{len(repos_data)} fetched out of {repo_num} repos')
 else:
     print('data fetched succesfully')
+
