@@ -55,15 +55,36 @@
     <div class="container" id="rec-container">
         <!-- First row -->
         <div class="container rec-container-row">
-            <button class="rec-button">Python</button>
-            <button class="rec-button">Java</button>
-            <button class="rec-button">C++</button>
+            <form action="/" method="POST">
+                <button class="rec-button" type="submit">Python</button> 
+                <input type="hidden" name="keywords" value="Python">
+            </form>
+
+            <form action="/" method="POST">
+                <button class="rec-button">Java</button>
+                <input type="hidden" name="keywords" value="Java">
+            </form>
+
+            <form action="/" method="POST">
+                <button class="rec-button">C++</button>
+                <input type="hidden" name="keywords" value="C++">
+            </form>
         </div>
+        
+
         <!-- Second row -->
         <div class="container rec-container-row">
-            <button class="rec-button">SigRobotics</button>
-            <button class="rec-button">ICPC</button>
-            <button class="rec-button">OpenSource UIUC</button>
+            <form action="/" method="POST">
+                <button class="rec-button">Machine Learning</button>
+                <input type="hidden" name="keywords" value="Machine Learning">
+            </form>
+
+            <form action="/" method="POST">
+                <button class="rec-button">Evil stuff</button>
+                <input type="hidden" name="keywords" value="Evil stuff">
+            </form>
+
+            <button class="rec-button" onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ';">Don't click me!</button>
         </div>
     </div>
 
