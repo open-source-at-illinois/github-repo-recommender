@@ -1,2 +1,3 @@
 osai_venv/*
+secret.py
 */__pycache__/*
