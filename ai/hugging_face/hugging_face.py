@@ -1,5 +1,6 @@
 import requests
-from secret import token
+from ai.hugging_face.secret import token
+# from secret import token
 url = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
 
 def llm(query):
@@ -31,4 +32,5 @@ def llm(query):
 
   return response_text
 
-print(llm('write a python program to generate fibonacci series'))
+if __name__=="__main__":
+    print(llm('write a python program to generate fibonacci series'))
